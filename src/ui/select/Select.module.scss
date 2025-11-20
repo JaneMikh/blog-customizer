@@ -6,6 +6,7 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 4px;
+	margin-top: 49px;
 }
 
 .arrow {
@@ -14,6 +15,7 @@
 	right: 6px;
 	width: 24px;
 	margin-top: -12px;
+	margin-right: 8px;
 	transition: transform 0.2s ease-in-out, margin-top 0.2s ease-in-out;
 }
 
@@ -23,8 +25,8 @@
 	align-items: center;
 	box-sizing: border-box;
 	width: 100%;
-	height: 50px;
-	padding: 15px 17px;
+	height: 47px;
+	padding: 12px 12px 11px 24px;
 	background: rgb(255 255 255);
 	outline: 1px solid #000000;
 	cursor: pointer;
@@ -83,8 +85,8 @@
 
 @mixin option-color-before {
 	content: '';
-	width: 35px;
-	height: 35px;
+	width: 24px;
+	height: 24px;
 	margin-right: 10px;
 }
 
@@ -97,9 +99,10 @@
 	content: '';
 	position: absolute;
 	left: 26px;
-	width: 17px;
-	height: 17px;
+	width: 8px;
+	height: 8px;
 	border-radius: 100%;
+	left: 32px;
 }
 
 .option-black[data-selected='true']::after {
